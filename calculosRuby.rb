@@ -1,4 +1,4 @@
-puts("[1] para soma, [2] para subtração, [3] para multiplicação. [4] para divisão")
+puts("[1] para soma, [2] para subtração, [3] para multiplicação, [4] para divisão, [0] para sair")
 print "Escolha uma operação: "
 escolha = gets.chomp.to_i
 
@@ -48,6 +48,10 @@ if escolha == 4
     soma = num1 / num2
 
     puts "A divisão é: #{soma}"
+end
+
+if escolha == 0
+   puts "Saiu"
 end
 
 
