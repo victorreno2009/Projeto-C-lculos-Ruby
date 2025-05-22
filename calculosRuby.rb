@@ -21,9 +21,9 @@ if escolha == 2
     print "Digite outro número: "
     num2 = gets.chomp.to_i
 
-    soma = num1 - num2
+    subtracao = num1 - num2
 
-    puts "A subtração é: #{soma}"
+    puts "A subtração é: #{subtracao}"
 end
 
 if escolha == 3
@@ -33,9 +33,9 @@ if escolha == 3
     print "Digite outro número: "
     num2 = gets.chomp.to_i
 
-    soma = num1 * num2
+    multiplicacao = num1 * num2
 
-    puts "A multiplicação é: #{soma}"
+    puts "A multiplicação é: #{multiplicacao}"
 end
 
 if escolha == 4
@@ -45,9 +45,9 @@ if escolha == 4
     print "Digite outro número: "
     num2 = gets.chomp.to_i
 
-    soma = num1 / num2
+    divisao = num1 / num2
 
-    puts "A divisão é: #{soma}"
+    puts "A divisão é: #{divisao}"
 end
 
 if escolha == 0
